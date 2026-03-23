@@ -1,21 +1,21 @@
  # Bridge Text Exchange
 
-A lightweight messaging bridge system that enables seamless text exchange between different communication platforms and protocols.[2][3]
+A lightweight messaging bridge system that enables seamless text exchange between different communication platforms and protocols.
 
 ## 🎯 Overview
 
-Bridge Text Exchange is a middleware solution designed to facilitate cross-platform text communication by bridging multiple messaging systems. It acts as a relay service that translates and forwards messages between different protocols, enabling unified communication across disparate platforms.[3][1]
+Bridge Text Exchange is a middleware solution designed to facilitate cross-platform text communication by bridging multiple messaging systems. It acts as a relay service that translates and forwards messages between different protocols, enabling unified communication across disparate platforms.
 
 ## ✨ Features
 
 - **Multi-Protocol Support**: Connect various messaging platforms through a unified interface
 - **Real-Time Message Relay**: Instant message forwarding with minimal latency
-- **Bi-Directional Communication**: Two-way message exchange between connected platforms[2]
-- **Message Translation**: Automatic format conversion between different messaging protocols[3]
-- **Secure Transmission**: End-to-end encryption for all message exchanges[4]
-- **Topic-Based Routing**: Route messages based on topics and subscriptions[2]
+- **Bi-Directional Communication**: Two-way message exchange between connected platforms.
+- **Message Translation**: Automatic format conversion between different messaging protocols.
+- **Secure Transmission**: End-to-end encryption for all message exchanges.
+- **Topic-Based Routing**: Route messages based on topics and subscriptions.
 - **Queue Management**: Reliable message delivery with queue-based architecture
-- **Bridge Configuration**: Flexible setup for uni-directional or bi-directional bridges[2]
+- **Bridge Configuration**: Flexible setup for uni-directional or bi-directional bridges.
 
 ## 🚀 Getting Started
 
@@ -134,7 +134,7 @@ def handle_message(message):
 bridge.start()
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐         ┌──────────────────┐         ┌─────────────────┐
@@ -212,12 +212,12 @@ bridge.on('disconnected', handler) // Bridge disconnected
 
 ## 🔐 Security
 
-- **Encryption**: All messages are encrypted in transit using TLS/SSL[4]
+- **Encryption**: All messages are encrypted in transit using TLS/SSL.
 - **Authentication**: Token-based authentication for all platform connections
 - **Access Control**: Role-based permissions for bridge operations
-- **Audit Logging**: Complete logging of all message exchanges[4]
+- **Audit Logging**: Complete logging of all message exchanges.
 - **Rate Limiting**: Protection against abuse and spam
-- **Data Privacy**: No permanent storage of message content[4]
+- **Data Privacy**: No permanent storage of message content.
 
 ## ⚙️ Configuration Options
 
@@ -237,8 +237,8 @@ bridge.on('disconnected', handler) // Bridge disconnected
 ### Advanced Features
 
 - **Message Filtering**: Filter messages based on patterns or keywords
-- **Message Transformation**: Transform message format between platforms[3]
-- **Topic Routing**: Route messages to specific channels based on topics[2]
+- **Message Transformation**: Transform message format between platforms.
+- **Topic Routing**: Route messages to specific channels based on topics.
 - **Load Balancing**: Distribute messages across multiple bridge instances
 - **Failover Support**: Automatic failover to backup bridges
 
